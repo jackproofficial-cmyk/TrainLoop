@@ -1,0 +1,28 @@
+# Dependencies (DO NOT PUSH - GitHub will get extremely slow)
+node_modules/
+
+# Environment Variables & Secrets (CRITICAL SECURITY)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build Outputs & Cache
+dist/
+build/
+.vite/
+*.tsbuildinfo
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS & Editor System Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

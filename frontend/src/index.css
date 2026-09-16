@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-cal: "Cal Sans", sans-serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-app: #121212;
+  --color-surface: #1e1e1e;
+  --color-card: #161616;
+  --color-card-inner: #1f1f1f;
+  --color-card-hover: #262626;
+  
+  --color-accent-blue: #93c5fd;
+  --color-accent-blue-soft: rgba(147, 197, 253, 0.1);
+  --color-emerald-soft: rgba(52, 211, 153, 0.1);
+  --color-amber-soft: rgba(251, 191, 36, 0.1);
+  --color-red-soft: rgba(248, 113, 113, 0.1);
+}
+
+/* Minimalist Dark Scrollbar Rules */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.15) transparent;
+}
